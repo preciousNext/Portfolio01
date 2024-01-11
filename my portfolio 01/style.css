@@ -1,0 +1,2355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+section {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1460px) {
+  /* #experienceContent {
+    display: flex;
+    justify-content: ;
+  } */
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: whitesmoke;
+  }
+  #linkedIn img {
+    height: 30px;
+  }
+  nav {
+    display: flex;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  #logo {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 600px;
+    cursor: default;
+  }
+  #navLinks {
+    display: flex;
+  }
+  #navLinks li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  #navLinks li a {
+    color: black;
+    text-decoration: none;
+  }
+  #navLinks li a:hover {
+    border-bottom: 1px solid darkgray;
+    transition: all 0.5s ease-in-out;
+  }
+  #aboutImage img {
+    width: 300px;
+  }
+  #aboutContainer {
+    display: flex;
+    width: 50%;
+    margin: 120px auto;
+  }
+  #about {
+    padding-top: 30px;
+  }
+  #contact {
+    margin-top: 50px;
+  }
+  #aboutIcons img {
+    width: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+
+  #aboutContent {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  #aboutContent h2 {
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  #frontend {
+    color: gray;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: space-between;
+  }
+  #button2 {
+    background-color: black;
+    color: #fff;
+  }
+  #button1:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease;
+  }
+  /* EXPERIENCE */
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 130px;
+  }
+  #ex img {
+    width: 20px;
+  }
+  #ex p {
+    color: gray;
+  }
+
+  #lorem {
+    width: 85%;
+    text-align: justify;
+    padding-left: 172px;
+    padding-top: 10px;
+  }
+  #ex {
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(241, 233, 233);
+  }
+  .ex2 {
+    margin-left: 90px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 170px;
+  }
+  #experienceContentDiv {
+    padding-top: 20px;
+  }
+  #experienceContainer {
+    display: flex;
+    width: 90%;
+
+    margin: 120px auto;
+  }
+  #explore {
+    text-align: center;
+  }
+  #courses img {
+    width: 30px;
+  }
+  #htmlDiv {
+    display: flex;
+  }
+  #cssDiv {
+    display: flex;
+  }
+  #jsDiv {
+    display: flex;
+  }
+  #courses h4 {
+    margin-top: 7px;
+    font-size: 14px;
+  }
+  #dev {
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 20px auto;
+  }
+  #dev h3 {
+    text-align: center;
+    color: gray;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #js {
+    padding-left: 120px;
+  }
+  #courses p {
+    color: gray;
+    padding-left: 5px;
+  }
+  #project2Div img {
+    width: 200px;
+    border-radius: 15px;
+  }
+  #project2Container {
+    margin-top: 70px;
+  }
+  #projContent {
+    text-align: center;
+  }
+  #project2Div {
+    display: flex;
+    width: 65%;
+    margin: 20px auto;
+  }
+  .proj {
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 15px;
+    margin-left: 30px;
+    text-align: center;
+  }
+  .proj h3 {
+    margin-top: 10px;
+  }
+  .proj button {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  .proj button:hover {
+    background-color: black;
+    transition: all 0.6s ease-in-out;
+    color: #fff;
+  }
+  #contact {
+    margin-top: 90px;
+  }
+  #contactContainer img {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  #gmail {
+    display: flex;
+  }
+  #linkedIn {
+    display: flex;
+    margin-left: 50px;
+  }
+  #contactForm p {
+    margin-top: 7px;
+    font-size: 15px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 25%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #contactMe {
+    text-align: center;
+  }
+  #contactMe p {
+    font-size: 15px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  /* #projectThree {
+    margin-right: 90px;
+  } */
+}
+
+@media screen and (max-width: 1340px) {
+  #linkedIn p {
+    display: none;
+  }
+  #project2Div {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+  }
+  #experienceContainer {
+    display: flex;
+    width: 100%;
+
+    margin: 120px auto;
+  }
+  #ex img {
+    width: 30px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+  #linkedIn p {
+    display: none;
+  }
+  #project2Div {
+    display: flex;
+    width: 77%;
+    margin: 20px auto;
+  }
+  #experienceContainer {
+    display: flex;
+    width: 100%;
+
+    margin: 120px auto;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #js {
+    padding-left: 120px;
+  }
+  #courses p {
+    color: gray;
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #project2Div {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+  }
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+  }
+  #ex {
+    text-align: center;
+    border: 1px solid gray;
+    width: 40%;
+    height: 20vh;
+    padding-top: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+  }
+  #ex img {
+    width: 20px;
+  }
+  #ex p {
+    color: gray;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 170px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 140px;
+  }
+  #experienceContentDiv {
+    padding-top: 10px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutContainer {
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+  }
+  #linkedIn img {
+    margin-right: -20px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 30%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutContainer {
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+  }
+}
+@media screen and (max-width: 1030px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutContainer {
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+  }
+  #project2Div {
+    display: flex;
+    width: 88%;
+    margin: 20px auto;
+  }
+  #jsDiv {
+    margin-right: 19px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #linkedIn p {
+    display: none;
+  }
+  #project2Div {
+    display: flex;
+    width: 89%;
+    margin: 20px auto;
+  }
+  #experienceContainer {
+    display: flex;
+    width: 100%;
+
+    margin: 120px auto;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #jsDiv h4 {
+    margin-right: 19px;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+  }
+  #ex {
+    text-align: center;
+    border: 1px solid gray;
+    width: 40%;
+    height: 20vh;
+    padding-top: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+  }
+  #ex img {
+    width: 20px;
+  }
+  #ex p {
+    color: gray;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 130px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 100px;
+  }
+  #experienceContentDiv {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  #project2Div {
+    display: flex;
+    width: 97%;
+    margin: 20px auto;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+}
+@media screen and (max-width: 920px) {
+  #project2Div {
+    display: flex;
+    width: 97%;
+    margin: 20px auto;
+  }
+  body {
+    background-color: sandybrown;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutContainer {
+    display: grid;
+  }
+  #aboutImage img {
+    margin-left: 120px;
+  }
+
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #aboutContent h2 {
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  #frontend {
+    color: gray;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 155px;
+  }
+  #linkedIn img {
+    margin-left: -20px;
+  }
+  #project2Div {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 890px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 20px auto;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 115px;
+  }
+  #linkedIn img {
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 110px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  body {
+    background-color: burlywood;
+  }
+
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 150px;
+  }
+
+  .proj {
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 15px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #projectThree {
+    position: relative;
+    left: 130px;
+  }
+
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+  }
+  #ex {
+    text-align: center;
+    border: 1px solid gray;
+    width: 40%;
+    height: 20vh;
+    padding-top: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+  }
+  #ex img {
+    width: 20px;
+  }
+  #ex p {
+    color: gray;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 70px;
+  }
+  #experienceContentDiv {
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 850px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 108px;
+  }
+  #aboutImage img {
+    margin-left: 110px;
+  }
+  #experienceContainer {
+    display: grid;
+  }
+  #experienceImg img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 130px;
+  }
+}
+@media screen and (max-width: 810px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 110px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 96px;
+  }
+  #aboutImage img {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 790px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+  }
+  #aboutImage img {
+    margin-left: 95px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 770px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 68px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 98px;
+  }
+  #experienceImg img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 225px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 64px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #aboutImage img {
+    margin-left: 88px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 85px;
+  }
+  #linkedIn img {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 730px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 53px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #aboutImage img {
+    margin-left: 76px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 85px;
+  }
+  #linkedIn img {
+    margin-left: 10px;
+  }
+  #experienceImg img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 50px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #aboutImage img {
+    margin-left: 73px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 56px;
+  }
+  #linkedIn img {
+    margin-left: -10px;
+  }
+  #experienceImg img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 187px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 50px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #aboutImage img {
+    margin-left: 60px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 40px;
+  }
+  #linkedIn img {
+    margin-left: -10px;
+  }
+  #experienceImg img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 183px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 50px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 40px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -100px;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 43px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #aboutImage img {
+    margin-left: 20px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 25px;
+  }
+  #linkedIn img {
+    margin-left: -20px;
+  }
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 165px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 35px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 620px) {
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 40px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -100px;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 43px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 35px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 250px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 15px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 165px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 35px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 40px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -100px;
+  }
+
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 43px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 35px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 230px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 2px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 160px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 35px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+}
+/*  */
+@media screen and (max-width: 580px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 0px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -100px;
+  }
+
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 53px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 230px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    margin-left: 127px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 160px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 35px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+  #projectThree {
+    position: relative;
+    left: 1px;
+  }
+}
+/*  */
+@media screen and (max-width: 560px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 0px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -100px;
+  }
+
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 43px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 230px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    margin-left: 127px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 160px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 35px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+  #projectThree {
+    position: relative;
+    left: 1px;
+  }
+}
+@media screen and (max-width: 530px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 0px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -80px;
+  }
+
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 42px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 230px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    margin-left: 107px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 160px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 25px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+  #projectThree {
+    position: relative;
+    left: 1px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 0px;
+    right: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -80px;
+  }
+
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 29px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 210px;
+  }
+  #courses {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    padding-left: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #dev {
+    border: 1px solid gray;
+    width: 70%;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 20px auto;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    margin-left: 94px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 145px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 25px;
+  }
+
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+  #projectThree {
+    position: relative;
+    left: 1px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 0px;
+    right: -5px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -80px;
+  }
+
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 29px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+    width: 180px;
+  }
+  #courses {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #dev {
+    border: 1px solid gray;
+    width: 70%;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 20px auto;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    margin-left: 94px;
+  }
+  #linkedIn img {
+    display: none;
+  }
+  #experienceImg img {
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 130px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 55px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 25px;
+  }
+  #ex {
+    text-align: center;
+    border: 1px solid gray;
+    width: 80%;
+    height: 20vh;
+    padding-top: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 30px;
+  }
+  #projectThree {
+    position: relative;
+    left: 1px;
+  }
+}
+@media screen and (max-width: 360px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #logo {
+    margin-left: -40px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 10px;
+  }
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 60px;
+    top: 5px;
+  }
+  #aboutImage img {
+    margin-left: 30px;
+    width: 150px;
+  }
+
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 30px;
+
+    right: 17px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  #navLinks.active li {
+    margin-left: 10px;
+  }
+  #aboutContentCont h2 {
+    font-size: 20px;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -1px;
+  }
+  #experienceImg img {
+    width: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 105px;
+  }
+
+  #lorem {
+    width: 80%;
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: grid;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  #dev {
+    border: 1px solid gray;
+    width: 80%;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 20px auto;
+  }
+  #js {
+    position: relative;
+    left: 30px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    margin-left: 35px;
+  }
+  #contactForm {
+    display: flex;
+    border: 1px solid gray;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 14px;
+  }
+  #linkedIn img {
+    margin-left: 10px;
+    display: block;
+  }
+  #css {
+    position: relative;
+    left: -50px;
+  }
+  #html {
+    position: relative;
+    left: 15px;
+  }
+  #js {
+    position: relative;
+    left: 10px;
+  }
+  /* #trans {
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10;
+
+    animation: typing 5s steps(40) infinite, fadeIn 3s step-end infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 300px;
+    }
+  }  */
+}
+
+/* @media screen and (max-width: 600px) {
+  #navLinks {
+    display: none;
+  }
+  #navLinks.active {
+    display: grid;
+    position: absolute;
+    top: 60px;
+    padding-right: 40px;
+    right: 10px;
+    background-color: #fff;
+    transform: translateY(10px);
+    animation: slideAndFade 2s forwards;
+  }
+  @keyframes slideAndFade {
+    0% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(10px);
+      opacity: 1;
+    }
+  }
+  #logo {
+    margin-left: -100px;
+  }
+  body {
+    background-color: khaki;
+  }
+  #burger {
+    padding: 11px 13px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: 10px;
+  }
+  .line {
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+  }
+  .active-navbar .line:nth-child(1) {
+    transform: translateY(6px) rotate(-45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  .active-navbar .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active-navbar .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    transition: all 0.7s ease-in-out;
+  }
+  #aboutButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 43px;
+  }
+  #aboutContent button {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  #aboutImage img {
+    margin-left: 40px;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #project2Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20%;
+    margin-left: 35px;
+  }
+  #linkedIn img {
+    margin-left: -20px;
+  }
+  #experienceImg img {
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 165px;
+  }
+
+  #lorem {
+    width: 88%;
+    text-align: justify;
+    padding-left: 70px;
+    padding-top: 10px;
+  }
+  #experienceContent {
+    display: flex;
+    padding-left: 45px;
+  }
+  #js {
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  #aboutContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  #aboutContentCont {
+    text-align: center;
+  }
+} */
